@@ -1,13 +1,18 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+section {
   margin: 0.5em;
 }
 
@@ -16,10 +21,20 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
 img {
   display: block;
   width: 100px;
-	margin: auto;
+  margin: auto;
 }
 
 .card-group {
@@ -29,26 +44,31 @@ img {
   margin: 0;
   padding: 1em;
   list-style-type: none;
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
   border-left: 1px solid #000;
   border-right: 0.5px solid #000;
 }
 
 .two {
-  background-color: #e2e2e2;
-}
-
-.three {
   background-color: #ccc;
 }
 
-.four {
+.three {
   background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
 }
 
 .img-card {
   display: inline-block;
   width: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn {
@@ -61,4 +81,8 @@ img {
 
 .btn-small {
   font-size: 0.875rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
